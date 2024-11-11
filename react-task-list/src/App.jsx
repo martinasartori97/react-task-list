@@ -11,7 +11,7 @@ function App() {
 
       <header>JSX Task List</header>
       <main>welcome to my react app</main>
-      <footer></footer>
+      <footer>hello react</footer>
 
     </div>
   )
