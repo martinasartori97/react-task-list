@@ -2,6 +2,8 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import AppHeader from './components/AppHeader'
+import AppMain from './components/AppMain'
 
 function App() {
 
@@ -9,11 +11,12 @@ function App() {
   return (
     <div>
 
-      <header>JSX Task List</header>
-      <main>welcome to my react app</main>
-      <footer>hello react</footer>
+
+      <AppHeader />
+      <AppMain />
 
     </div>
+
   )
 }
 
